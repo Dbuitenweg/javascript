@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('img/farm.jpg') no-repeat center center fixed; 
+    /* https://stock.adobe.com/nl/search?k=farm+cartoon */
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+img.varken, img.kip {
+    position: absolute;
+}
+
+img.varken {
+    width: 150px; 
+    left: 20%; 
+    top: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+img.kip {
+    width: 100px; 
+    right: 20%; 
+    bottom: 20%; 
+    transform: translate(50%, 50%);
+}
+
+
+.timer{
+    font-size: 2em;
+    display: flex;
+    justify-content: left;
+    background-color: aliceblue;
+    margin-left: 900px;
+    margin-bottom: 600px;
+}
+
+.knop{
+    display: block;
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-bottom: 600px;
+}
