@@ -1,4 +1,4 @@
-const varken = document.querySelector('.varken');
+    const varken = document.querySelector('.varken');
     const kip = document.querySelector('.kip');
     const timerDisplay = document.querySelector('.timer');
     const startButton = document.querySelector('.knop');
@@ -17,7 +17,7 @@ const varken = document.querySelector('.varken');
                 timerDisplay.textContent = timeLeft; 
             } else {
                 clearInterval(timerInterval); 
-                timerDisplay.textContent = 'Tijd is op druk start!';
+                timerDisplay.textContent = 'Tijd is om druk start!';
             }
         }, 1000); 
     }
